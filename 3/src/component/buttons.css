@@ -1,0 +1,23 @@
+.standardFill{
+    border-radius: 6px;
+    padding: 8px 22px;
+    font-weight: 700;
+    border: none;
+    margin: 10px;
+}
+.standardOutline{
+    border-radius: 6px;
+    padding: 8px 22px;
+    font-weight: 700;
+     box-sizing: border-box;
+    margin: 10px;
+
+}
+.roundedFilled{
+    border-radius: 22px;
+    padding: 8px 22px;
+    font-weight: 700;
+border: none;
+    margin: 10px;
+
+}

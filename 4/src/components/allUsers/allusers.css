@@ -1,0 +1,25 @@
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    border: 1px solid #3486e7;
+    color: #3486e7;
+    background-color: white;
+    padding: 6px 18px;
+    margin-right: 5px;
+}
+.allUsers{
+    padding: 60px 190px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    border:1px solid black;
+    width: 235px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}

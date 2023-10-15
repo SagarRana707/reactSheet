@@ -1,0 +1,111 @@
+.fd {
+  display: flex;
+  max-width: 850px;
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 224);
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.prtOfFd {
+  width: 65%;
+  box-sizing: border-box;
+  padding-right: 25px;
+}
+.investReturns {
+  width: 35%;
+  padding-left: 25px;
+}
+
+/*Input type range css*/
+.Slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  height: 4px;
+  width: 100%;
+  border-radius: 5px;
+  background: #03b789; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.Slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; /* Make it a circle */
+  background: #d1d0d0;
+  cursor: pointer;
+}
+
+.Slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; /* Make it a circle */
+  background: #ffffff;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield; /* Safari and Chrome */
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield;
+    -o-appearance: textfield;
+}
+
+.I{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.estReturn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.totalValue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.investReturn{
+  display: flex;
+  height: fit-content;
+  padding-top: 23px;
+}.investReturn p{
+  margin: 0;
+  padding-left: 4px;font-size: small; 
+color: #a8a8a8;
+}
+.totalSpan{
+  display: flex;
+  align-items: center;
+}
+.totalSpan span{
+  background-color: rgb(177, 176, 176);
+  border-radius: 26px;
+  height: 8px;
+  width: 16px;
+  display: block;
+}
+.returnSpan{
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+}
+.returnSpan span{
+background-color: rgb(39, 108, 255);
+  border-radius: 26px;
+  height: 8px;
+  width: 16px;
+}

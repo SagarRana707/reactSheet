@@ -1,0 +1,27 @@
+.timePeriod{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.time{
+    display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  background-color: #e4ebe9;
+  height: max-content;
+}
+.time input{
+    border: medium;
+  height: 30px;
+  width: 82px;
+  color: #03b789;
+  font-size: bold;
+  background: transparent;
+  text-align: right;
+  flex-grow: 1;
+  outline: 0px;
+  opacity: 1;
+  padding: 0;
+}
